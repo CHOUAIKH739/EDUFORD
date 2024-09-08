@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>university website design</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--header start-->
+     <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>contact us</h1>
+
+     </section>
+     <!--contact start-->
+     <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13042.16375097875!2d-6.1357940413074!3d35.192992639680405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0bcf2af7def7eb%3A0x817c18e1b7dab0c3!2z2YjYs9i3INin2YTZhdiv2YrZhtip2Iwg2KfZhNi52LHYp9im2LQ!5e0!3m2!1sar!2sma!4v1725624574011!5m2!1sar!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+     </section>
+     <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p>larache,morocco</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>0123456789</h5>
+                        <p>monday to saturday,10am to 6pm</p>
+                    </span>
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>info@eduford.com</h5>
+                        <p>email us your query</p>
+                    </span>
+                </div>
+
+            </div>
+            <div class="contact-col">
+                <form action="" class="comment-form">
+                    <input type="text" placeholder=" enter name" required>
+                    <input type="email" placeholder="enter email" required>
+                    <input type="text" placeholder="enter your subject" required>
+                    <textarea name="" id="" rows="5" placeholder="message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">send message</button>
+
+                </form>
+            </div>
+        </div>
+     </section>
+     
+
+     <!--footer start-->
+     <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsam provident rerum velit hic repudiandae dignissimos,<br> possimus quia, eligendi nesciunt sapiente cumque optio alias?</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        <p>made by <a href="https://chouaikh739.github.io/CHOUAIKH-IBRAHIM/">ibrahim chouaikh</a> </p>
+
+     </section>
+     
+    
+     <!--javascript-->
+     <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+     </script>
+</body>
+</html>

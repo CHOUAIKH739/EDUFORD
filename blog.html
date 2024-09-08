@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>university website design</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--header start-->
+     <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="course.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>our certificate & online program for 2024</h1>
+
+     </section>
+     <!--blog contant start-->
+     <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/certificate.jpg" alt="">
+                <h2>our certificate & online program for 2024</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, itaque sit voluptatibus nihil quod sapiente odit magni qui nam atque? Nobis corporis nihil esse inventore nesciunt minima quas explicabo amet.</p>
+                 <br>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque hic facilis ratione excepturi atque aspernatur a commodi, alias eaque dicta tempora, temporibus voluptas ipsum, quasi qui. Suscipit mollitia cupiditate tempore.</p>
+                 <br>
+                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi harum laboriosam consequatur officia accusamus, soluta illo non repudiandae, at similique, vel cum molestias iusto quo fugit architecto voluptatibus adipisci provident!</p>
+                 <br>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, enim. Nemo neque iure, quam consequatur repellat voluptatem tempora eaque cupiditate doloremque vitae porro modi a magnam error, eligendi corrupti id!</p>
+                 <div class="comment-box">
+                    <h3>leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder=" enter name">
+                        <input type="email" placeholder="enter email">
+                        <textarea name="" id="" rows="5" placeholder="your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">post comment</button>
+
+                    </form>
+                 </div>
+
+
+            </div>
+            <div class="blog-right">
+                <h3>post categories</h3>
+                <div>
+                    <span>business analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>data science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>machine learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>camputer science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>auto cad</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+     </section>
+     
+     <!--footer start-->
+     <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsam provident rerum velit hic repudiandae dignissimos,<br> possimus quia, eligendi nesciunt sapiente cumque optio alias?</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        <p>made by <a href="https://chouaikh739.github.io/CHOUAIKH-IBRAHIM/">ibrahim chouaikh</a> </p>
+
+     </section>
+     
+    
+     <!--javascript-->
+     <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+     </script>
+</body>
+</html>
